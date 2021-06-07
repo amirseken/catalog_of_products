@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Каталог товаров</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    </head>
+    <body>
+
+        <div class="container">
+
+
+            <h1 class ="display-3 text-center"> Каталог продукций</h1>
+            <hr>
+
+            <div class = "row justify-content-start g-4 "  >
+                <div id="container"class = "col-lg-3 ">
+                    <div >
+                        <div class="p-3 border bg-gradient text-center rounded my-auto" id="category_root1" onclick="clicks1('1')">
+                            <img src="http://cdn.onlinewebfonts.com/svg/download_347472.png" width="40px" height="40px">
+                            <p id="text1">Кабельно-проводниковая продукция</p>
+                        </div>
+                    </div>
+
+                    <div class = "col-lg-3" id="content1_1" style="visibility: hidden; height: 0px; padding: 0px; margin: 0px 20px 0px 0px; transition: all 0.8s ease 0s;"> </div>
+                </div>
+                <div id="container"class = "col-lg-3" >
+                    <div >
+                        <div class="p-3 border bg-gradient text-center rounded my-auto" id="category_root2" onclick="clicks1('2')">
+                            <img src="http://cdn.onlinewebfonts.com/svg/download_41295.png" width="40px" height="40px" >
+                            <p id="text2">Кабельные муфты</p>
+                        </div>
+                    </div>
+                
+                    <div class = "col-lg-3" id="content1_2" style="visibility: hidden; height: 0px; padding: 0px; margin: 0px 20px 0px 0px; transition: all 0.8s ease 0s;"> </div>
+                </div>
+                <div id="container"class = "col-lg-3">
+                    <div >
+                        <div class="p-3 border bg-gradient text-center rounded my-auto" id="category_root3" onclick="clicks1('3')">
+                            <img src="http://cdn.onlinewebfonts.com/svg/download_125445.png" width="40px" height="40px">
+                            <p id="text3">Арматура на СИП</p>
+                        </div>
+                    </div>
+                
+                    <div class = "col-lg-3" id="content1_3" style="visibility: hidden; height: 0px; padding: 0px; margin: 0px 20px 0px 0px; transition: all 0.8s ease 0s;"> </div>
+                </div>
+                <div id="container"class = "col-lg-3">
+                    <div>
+                        <div class="p-3 border bg-gradient text-center rounded my-auto" id="category_root4" onclick="clicks1('4')">
+                            <img src="http://cdn.onlinewebfonts.com/svg/download_273578.png" width="40px" height="40px" >
+                            <p id="text4">Арматура на АС</p>
+                        </div>
+                    </div>
+            
+                    <div class = "col-lg-3" id="content1_4" style="visibility: hidden; height: 0px; padding: 0px; margin: 0px 20px 0px 0px; transition: all 0.8s ease 0s;"> </div>
+                </div>
+
+                <div id="container"class = "col-lg-3">
+                    <div >
+                        <div class="p-3 border  bg-gradient text-center rounded my-auto" id="category_root5" onclick="clicks2('5')">
+                            <img src="https://www.pinclipart.com/picdir/big/12-122156_picture-black-and-white-light-on-icon-free.png" width="40px" height="40px">
+                            <p id="text5">Светотехника</p>
+                        </div>
+                    </div>
+
+                    <div id="content2_1" style="visibility: hidden; height: 0px; padding: 0px; margin: 0px 20px 0px 0px; transition: all 0.8s ease 0s;"> </div>
+                </div>
+
+                <div id="container"class = "col-lg-3">
+                    <div>
+                        <div class="p-3 border bg-gradient text-center rounded my-auto" id="category_root6" onclick="clicks2('6')">
+                            <img src="https://image.flaticon.com/icons/svg/1399/1399121.svg" width="40px" height="40px" >
+                            <p id="text6">Низковольтное оборудование</p>
+                        </div>
+                    </div>
+
+                    <div id="content2_2" style="visibility: hidden; height: 0px; padding: 0px; margin: 0px 20px 0px 0px; transition: all 0.8s ease 0s;"> </div>
+                </div>
+                <div id="container"class = "col-lg-3">
+                    <div >
+                        <div class="p-3 border bg-gradient text-center rounded my-auto" id="category_root7" onclick="clicks2('7')">
+                            <img src="https://image.flaticon.com/icons/png/512/46/46218.png" width="40px" height="40px" >
+                            <p id="text7">Высоковольтное оборудование</p>
+                        </div>
+                    </div>
+
+                    <div id="content2_3" style="visibility: hidden; height: 0px; padding: 0px; margin: 0px 20px 0px 0px; transition: all 0.8s ease 0s;"> </div>
+                </div>
+                <div id="container"class = "col-lg-3">
+                    <div>
+                        <div class="p-3 border bg-gradient text-center rounded my-auto" id="category_root8" onclick="clicks2('8')">
+                            <img src="https://static.thenounproject.com/png/2160989-200.png" width="40px" height="40px" >
+                            <p id="text8">Трансформаторы и подстанции</p>
+                        </div>
+                    </div>
+            
+                    <div id="content2_4" style="visibility: hidden; height: 0px; padding: 0px; margin: 0px 20px 0px 0px; transition: all 0.8s ease 0s;"> </div>
+                </div>
+                <div id="container"class = "col-lg-3">
+                    <div >
+                        <div class="p-3 border bg-gradient text-center rounded my-auto" id="category_root9" onclick="clicks3('9')">
+                            <img src="http://cdn.onlinewebfonts.com/svg/download_277220.png" width="40px" height="40px">
+                            <p id="text9">Кабельные лотки и металлоизделия</p>
+                        </div>
+                    </div>
+
+                    <div id="content3_1" style="visibility: hidden; height: 0px; padding: 0px; margin: 0px 20px 0px 0px; transition: all 0.8s ease 0s;"> </div>
+                </div>
+                <div id="container"class = "col-lg-3">
+                    <div>
+                        <div class="p-3 border bg-gradient text-center rounded my-auto" id="category_root10" onclick="clicks3('10')">
+                            <img src="https://static.tildacdn.com/tild6533-6337-4531-a436-306338363732/icon-66.png" width="60px" height="40px">
+                            <p id="text10">Сборка щитового оборудования</p>
+                        </div>
+                    </div>
+
+                    <div id="content3_2" style="visibility: hidden; height: 0px; padding: 0px; margin: 0px 20px 0px 0px; transition: all 0.8s ease 0s;"> </div>
+                </div>
+                <div id="container"class = "col-lg-3">
+                    <div >
+                        <div class="p-3 border bg-gradient text-center rounded my-auto" id="category_root11" onclick="clicks3('11')">
+                            <img src="http://cdn.onlinewebfonts.com/svg/download_67241.png" width="40px" height="40px">
+                            <p id="text11">Строительно-монтажные работы</p>
+                        </div>
+                    </div>
+                    
+                    <div id="content3_3" style="visibility: hidden; height: 0px; padding: 0px; margin: 0px 20px 0px 0px; transition: all 0.8s ease 0s;"> </div>
+                </div>
+                <div id="container"class = "col-lg-3">
+                    <div >
+                        <div class="p-3 border bg-gradient text-center rounded my-auto" id="category_root12" onclick="clicks3('12')">
+                            <img src="http://cdn.onlinewebfonts.com/svg/download_123886.png" width="40px" height="40px">
+                            <p id="text12">Полиэтиленовые трубы и аксессуары</p>
+                        </div>
+                    </div>
+
+                    <div id="content3_4" style="visibility: hidden; height: 0px; padding: 0px; margin: 0px 20px 0px 0px; transition: all 0.8s ease 0s;"> </div>
+                </div>
+                <div id="container"class = "col-lg-3">
+                    <div >
+                        <div class="p-3 border bg-gradient text-center rounded my-auto" id="category_root13" onclick="clicks4('13')">
+                            <img src="http://cdn.onlinewebfonts.com/svg/download_277211.png" width="40px" height="40px" >
+                            <p id="text13">Композитная арматура</p>
+                        </div>
+                    </div>
+
+                    <div id="content4_1" style="visibility: hidden; height: 0px; padding: 0px; margin: 0px 20px 0px 0px; transition: all 0.8s ease 0s;"> </div>
+                </div>
+                <div id="container"class = "col-lg-3">
+                    <div >
+                        <div class="p-3 border bg-gradient text-center rounded my-auto" id="category_root14" onclick="clicks4('14')">
+                            <img src="https://image.flaticon.com/icons/png/512/16/16654.png" width="60px" height="30px" >
+                            <p id="text14">Защищённые лотки</p>
+                        </div>
+                    </div>
+
+                    <div id="content4_2" style="visibility: hidden; height: 0px; padding: 0px; margin: 0px 20px 0px 0px; transition: all 0.8s ease 0s;"> </div>
+                </div>
+                <div id="container"class = "col-lg-3">
+                    <div>
+                        <div class="p-3 border bg-gradient text-center rounded my-auto" id="category_root15" onclick="clicks4('15')">
+                            <img src="http://cdn.onlinewebfonts.com/svg/img_488142.png" width="40px" height="40px" >
+                            <p id="text15">Горная автоматика и взрывозащита</p>
+                        </div>
+                    </div>
+                    
+                    <div id="content4_3" style="visibility: hidden; height: 0px; padding: 0px; margin: 0px 20px 0px 0px; transition: all 0.8s ease 0s;"> </div>     
+                </div>
+                <div id="container"class = "col-lg-3">
+                    <div >
+                        <div class="p-3 border bg-gradient text-center rounded my-auto" id="category_root16" onclick="clicks4('16')">
+                            <img src="https://www.pinclipart.com/picdir/big/40-404193_in-download-the-canterbury-tales-2011-the-open.png" width="40px" height="40px" >
+                            <p id="text16">Складские остатки</p>
+                        </div>
+                    </div>    
+            
+                    <div id="content4_4" style="visibility: hidden; height: 0px; padding: 0px; margin: 0px 20px 0px 0px; transition: all 0.8s ease 0s;"> </div>
+                </div>
+                <div id="container"class = "col-lg-3">
+                    <div>
+                            <div class="p-3 border bg-gradient text-center rounded my-auto" id="category_root17" onclick="clicks5('17')">
+                                <p id="text17" style = "margin-bottom: 0;" >DENAIR</p>
+                            </div>
+                    </div>
+
+                    <div id="content5" style="visibility: hidden; height: 0px; padding: 0px; margin: 0px 20px 0px 0px; transition: all 0.8s ease 0s;"> </div>
+                </div>
+            </div>
+
+        </div>
+       
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
